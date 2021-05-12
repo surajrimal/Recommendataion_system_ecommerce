@@ -1,0 +1,47 @@
+/* forms */
+
+form{margin:0; padding:0; border:none;}
+input, textarea, select, button{font-size:14px; color:black; font-family:Verdana,  Arial, Tahoma, Helvetica, sans-serif;}
+
+fieldset {  padding: .35em .625em .75em;   margin: 0 2px;   border: 1px solid #c0c0c0; }
+legend {   padding:5px;  color:#999;   border: 0; }
+textarea {   overflow: auto; }
+optgroup {   font-weight: bold; }
+
+.form-group:before,
+.form-group:after{
+  display: table;
+  content: " ";
+}
+.form-group:after{
+	clear: both;
+}
+
+.form-vote label{margin-bottom:0;}
+
+#order_form .fill-group{margin-bottom:50px;}
+/* ------ main forms -------------*/
+
+.alert{margin-bottom:7px; padding:7px}
+
+.help-block{font-size:12px; margin-top:3px; color:orange;}
+
+.form-header{}
+label{text-align:right; padding-right:7px;}
+.form-header h3{color:#999; font-size:22px; margin:7px 0; font-weight:normal}
+
+.qty{ width:70px; margin:3px; }
+
+.colorgraph {
+margin:7px 0;
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+

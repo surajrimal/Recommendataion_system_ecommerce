@@ -1,0 +1,86 @@
+
+/* ================ blue button ===================*/
+.myBtn{font-size:18px; display:block; min-height:40px; line-height:38px; border:1px solid #fff; margin-bottom:7px; padding:5px; padding-left:10px; 
+	box-shadow:0 0 3px #ccc; -webkit-box-shadow:0 0 3px #ccc; -o-box-shadow:0 0 3px #ccc; -moz-box-shadow:0 0 3px #ccc;
+	background-color:#f3f3f3;
+	background-image: -webkit-linear-gradient(top, #fff, #f3f3f3);
+	background-image: -moz-linear-gradient(top, #fff, #f3f3f3);
+	background-image: -ms-linear-gradient(top, #fff, #f3f3f3);
+	background-image: -o-linear-gradient(top, #fff, #f3f3f3);
+	background-image: linear-gradient(top, #fff, #f3f3f3);
+}
+
+
+/* ================ gradient button ===================*/
+.btn-grad {
+	color: #333;
+	background-color: #ddd;
+	background-image: -webkit-linear-gradient(top, #fff, #dfdfdf);
+	background-image: -moz-linear-gradient(top, #fff, #dfdfdf);
+	background-image: -ms-linear-gradient(top, #fff, #dfdfdf);
+	background-image: -o-linear-gradient(top, #fff, #dfdfdf);
+	background-image: linear-gradient(top, #fff, #dfdfdf);
+	border-color: #ccc; transition:all 0.1s ease-in;
+}
+.btn-grad:hover, 
+.btn-grad:focus{
+  color: #333;
+  background-color: #ddd;
+  border-color: #666;
+  text-decoration:none;
+}
+.btn-grad:active
+{
+	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;
+}
+/* ================ download button ===================*/
+.button
+{
+	display: inline-block;
+	white-space: nowrap;
+	background-color: #ccc;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+	background-image: -webkit-linear-gradient(top, #eee, #ccc);
+	background-image: -moz-linear-gradient(top, #eee, #ccc);
+	background-image: -ms-linear-gradient(top, #eee, #ccc);
+	background-image: -o-linear-gradient(top, #eee, #ccc);
+	background-image: linear-gradient(top, #eee, #ccc);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+	border: 1px solid #777;
+	padding: 0 15px;
+	font: bold 1em/2em Arial, Helvetica;
+	text-decoration: none;
+	color: #333;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+	-moz-border-radius: .4em;
+	-webkit-border-radius: .4em;
+	border-radius: .4em;
+	-moz-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+	box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+
+}
+.button:hover
+{
+	text-decoration:none;
+	background-color: #ddd;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+	background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
+	background-image: -moz-linear-gradient(top, #fafafa, #ddd);
+	background-image: -ms-linear-gradient(top, #fafafa, #ddd);
+	background-image: -o-linear-gradient(top, #fafafa, #ddd);
+	background-image: linear-gradient(top, #fafafa, #ddd);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');
+}
+.button:active
+{
+	-moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+	position: relative;
+	top: 1px;
+}

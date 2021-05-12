@@ -1,0 +1,6 @@
+	background-color: #00A0F0; /* for old browsers */
+	background-image: -webkit-linear-gradient(top, #00A0F0, #0088CC);
+	background-image: -moz-linear-gradient(top, #00A0F0, #0088CC);
+	background-image: -ms-linear-gradient(top, #00A0F0, #0088CC);
+	background-image: -o-linear-gradient(top, #00A0F0, #0088CC);
+	background-image: linear-gradient(top, #00A0F0, #0088CC); 
